@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
@@ -24,3 +25,17 @@ yarn-error.log*
 
 
 package-lock.json
+=======
+
+
+todo_list_backnd/todo_list/venv/
+todo_list_backnd/todo_list/__pycache__/
+todo_list_backnd/todo_list/.idea/
+todo_list_backnd/todo_list/.vscode/
+todolist/node_modules/
+todolist/build/
+
+
+.env
+.DS_Store
+>>>>>>> 607d4bd629f689b0113f8fdbf52732e18753d24e
