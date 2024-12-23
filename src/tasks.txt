@@ -1,0 +1,8 @@
+requirements:
+
+* logo text
+* button to crreate new list
+* stats 4/10 taks completed
+* search Bar
+* filter like completed or not completed category filters(waitForAll,completed,in Progress,archieved)
+* todo cards with 3 buttons (archieve , edit,delete)

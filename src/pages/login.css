@@ -1,0 +1,78 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(350, 76%, 75%);
+  height: 100vh;
+}
+
+.login-card-container {
+  padding: 20px;
+  background-color: beige;
+  border-radius: 10px;
+}
+.login-heading {
+  text-align: center;
+  padding: 5px;
+  padding-bottom: 20px;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: hsla(204, 59%, 34%, 0.8);
+}
+
+.login-input {
+  display: block;
+  padding: 10px 12px;
+  margin: 15px 5px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px lightgray solid;
+  /* margin: 15px; */
+  font-size: 1.2em;
+  position: relative;
+  transition: 0.2s ease-in-out;
+}
+
+.login-btn {
+  display: block;
+  padding: 10px 12px;
+  margin: auto;
+  border-radius: 10px;
+  outline: none;
+  border: 1px lightgray solid;
+  width: 50%;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  background-color: hsla(221, 78%, 60%, 1);
+  color: azure;
+  text-decoration: none;
+}
+
+.login-btn:active {
+  transform: scale(0.9);
+  background-color: #357abd;
+}
+
+.login-link {
+  text-decoration: none;
+}
+
+.login-input::placeholder {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* On hover, start moving and fading placeholder */
+.login-input:hover::placeholder {
+  transform: translateY(-10px); /* Move the placeholder up */
+  opacity: 0.6; /* Fade out slightly */
+}
+
+/* On focus, move placeholder further up and fade out */
+.login-input:focus::placeholder {
+  transform: translateY(-20px); /* Move the placeholder up more */
+  opacity: 0; /* Fully fade out */
+}
