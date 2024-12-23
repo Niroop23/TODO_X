@@ -1,0 +1,12 @@
+
+
+todo_list_backnd/todo_list/venv/
+todo_list_backnd/todo_list/__pycache__/
+todo_list_backnd/todo_list/.idea/
+todo_list_backnd/todo_list/.vscode/
+todolist/node_modules/
+todolist/build/
+
+
+.env
+.DS_Store
